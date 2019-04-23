@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:paddingLeft="12dp"
+    android:paddingRight="5dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+     <ImageView
+         android:id="@+id/iv_image"
+         android:layout_width="35dp"
+         android:layout_height="35dp"
+         android:src="@mipmap/icon1"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="5dp">
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size15"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:text="开庭公告"/>
+        <TextView
+            android:id="@+id/tv_title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_size14"
+            android:textColor="@color/gray"
+            android:text="开庭公告"
+            android:singleLine="true"
+            android:layout_marginTop="3dp"/>
+    </LinearLayout>
+</LinearLayout>

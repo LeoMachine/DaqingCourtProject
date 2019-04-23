@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp">
+        <TextView
+            android:id="@+id/tv_cancle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textSize="@dimen/text_size_main"
+            android:textColor="@color/main_bar_color"
+            android:text="取消"/>
+        <TextView
+            android:id="@+id/tv_sure"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/text_size_main"
+            android:textColor="@color/main_bar_color"
+            android:text="确定"/>
+    </RelativeLayout>
+    <com.boju.daqingcourt.widget.wheelview.WheelView
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:id="@+id/wheelView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:textColorCenter="@color/main_text_color"
+        app:lineSpaceingDimens="15dp"
+        app:itemVisibleNum="3"
+        app:lineColor="@color/lightgray"
+        app:textSizeCenter="@dimen/text_size18"
+        app:textSizeOuter="@dimen/text_size15"
+        app:isLoop="false"
+        app:textColorOuter="@color/gray"/>
+</LinearLayout>
+    <!--lineColor	divider line color 分割线颜色-->
+    <!--itemVisibleNum	wheelview show item count 此wheelView显示item的个数-->
+    <!--textColorOuter	unSelected Text color 未选中文本颜色-->
+    <!--textSizeOuter	unSelected Text size 未选中文本字体大小-->
+    <!--textColorCenter	selected Text color 选中文本颜色-->
+    <!--textSizeCenter	selected Text size 选中文本字体大小-->
+    <!--isLoop	isLoop or no 滚轮是否首尾相连-->
+    <!--lineSpaceingDimens	item unit margin height 每个item单元格中文字距离上下的高度-->
+    <!--wheelGravity	align direction:left;center;right 对齐方向：靠左对齐 居中 靠右对齐-->

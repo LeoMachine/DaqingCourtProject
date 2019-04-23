@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name_cn">大庆微法院</string>
+
+    <string name="loading">加载中···</string>
+
+    <string name="main_tab_page1">便民服务</string>
+    <string name="main_tab_page2">在线诉讼</string>
+    <string name="main_tab_page3">我的案件</string>
+
+    <string name="cancle">取消</string>
+    <string name="title">请选择时间</string>
+    <string name="commit">确定</string>
+    <string name="year">年</string>
+    <string name="month">月</string>
+    <string name="day">日</string>
+    <string name="hour">时</string>
+    <string name="minute">分</string>
+
+    <string name="shuoming">
+        提交起诉后，将自动进入诉前调整阶段（自提交日算起15日），你可以找调节机构或者管辖法院的调解员尝试与被告调解，如调解成功，请及时撤回起诉；如调节不成功，系统会自动将起诉状提交法院
+    </string>
+    <string name="document_write">引导诉讼文书填写，并同步到法院填单机，供当事人打印。</string>
+</resources>

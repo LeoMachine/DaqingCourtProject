@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="anyou">
+        <item>网络服务合同纠纷</item>
+    </string-array>
+    <string-array name="sexArray">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+    <string-array name="zhiwuArray">
+        <item>总裁</item>
+        <item>执行董事长</item>
+        <item>董事长</item>
+        <item>经理</item>
+    </string-array>
+    <string-array name="fayuanArray">
+        <item>大庆法院</item>
+    </string-array>
+    <string-array name="fayuanYijuArray">
+        <item>被告所在地</item>
+        <item>合同履行地</item>
+    </string-array>
+    <string-array name="susong_add">
+        <item>退一赔十</item>
+        <item>退一赔三</item>
+        <item>退一赔一</item>
+        <item>十倍赔偿</item>
+        <item>三倍赔偿</item>
+        <item>其他</item>
+        <item>赔偿损失</item>
+    </string-array>
+    <string-array name="minzu">
+        <item>汉</item>
+        <item>蒙古</item>
+        <item>回</item>
+        <item>藏</item>
+        <item>维吾尔</item>
+        <item>苗</item>
+        <item>彝</item>
+        <item>壮</item>
+        <item>布依</item>
+        <item>朝鲜</item>
+        <item>满</item>
+        <item>侗</item>
+        <item>瑶</item>
+        <item>白</item>
+        <item>土家</item>
+        <item>哈尼</item>
+        <item>哈萨克</item>
+        <item>傣</item>
+        <item>黎</item>
+    </string-array>
+</resources>

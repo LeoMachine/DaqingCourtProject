@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_cart"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingLeft="13dp"
+    android:paddingRight="13dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <CheckBox
+        android:id="@+id/cb_child"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="false"
+        android:gravity="top"
+        android:paddingTop="4dp"
+        android:text="商品名巴士控件疗法阿劳科省价格合理啊控件老师的后果拉矿山路街道过后拉刘开始的回复j"
+        android:textColor="@color/black"
+        android:textSize="@dimen/text_size15"
+        android:theme="@style/AppThemColorAccent"/>
+
+</LinearLayout>
